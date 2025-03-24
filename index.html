@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL 2025 Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap">
+</head>
+<body>
+    <div class="quiz-container">
+        <div class="sidebar">
+            <h3>Questions</h3>
+            <div id="question-nav"></div>
+            <div class="timer-container">
+                <div id="timer">05:00</div>
+            </div>
+        </div>
+        
+        <div class="main-content">
+            <h1>IPL 2025 Quiz</h1>
+            
+            <div id="username-container">
+                <input type="text" id="username" placeholder="Enter your name">
+            </div>
+            
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress-fill"></div>
+                </div>
+                <div class="progress-text"><span id="progress">0</span>/<span id="total-questions">0</span></div>
+            </div>
+            
+            <div id="quiz-screen">
+                <div id="quiz">
+                    <div class="question-container">
+                        <div class="question" id="question-text">Loading questions...</div>
+                        <div class="options" id="options-container"></div>
+                    </div>
+                </div>
+                
+                <div id="review-screen" style="display:none">
+                    <h3>Review Your Answers</h3>
+                    <div id="review-questions"></div>
+                    <div class="review-buttons">
+                        <button id="return-to-quiz">Back to Quiz</button>
+                        <button id="confirm-submit">Submit Quiz</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="navigation">
+                <button id="prev-btn" disabled>← Previous</button>
+                <button id="next-btn">Next →</button>
+                <button id="review-btn">Review</button>
+                <button id="submit-btn">Submit Quiz</button>
+            </div>
+            
+            <div id="result-screen" style="display:none">
+                <h2>Quiz Results</h2>
+                <div id="result-summary"></div>
+                <div id="detailed-results"></div>
+                <button id="try-again">Try Again</button>
+            </div>
+            
+            <h2>Leaderboard</h2>
+            <table id="leaderboard">
+                <tr><th>Rank</th><th>Name</th><th>Score</th><th>Time</th></tr>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

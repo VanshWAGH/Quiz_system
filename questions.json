@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "question": "Which team scored the highest total in IPL 2025?",
+        "options": {
+            "A": "Mumbai Indians",
+            "B": "Royal Challengers Bangalore",
+            "C": "Sunrisers Hyderabad",
+            "D": "Kolkata Knight Riders"
+        },
+        "correct_option": "C"
+    },
+    {
+        "id": 2,
+        "question": "Who won the Orange Cap (most runs) in IPL 2025?",
+        "options": {
+            "A": "Virat Kohli",
+            "B": "Shubman Gill",
+            "C": "Ruturaj Gaikwad",
+            "D": "Jos Buttler"
+        },
+        "correct_option": "B"
+    },
+    {
+        "id": 3,
+        "question": "Which bowler took the first hat-trick of IPL 2025?",
+        "options": {
+            "A": "Jasprit Bumrah",
+            "B": "Rashid Khan",
+            "C": "Yuzvendra Chahal",
+            "D": "Mohammed Shami"
+        },
+        "correct_option": "C"
+    },
+    {
+        "id": 4,
+        "question": "Where was the IPL 2025 final played?",
+        "options": {
+            "A": "Wankhede Stadium, Mumbai",
+            "B": "Narendra Modi Stadium, Ahmedabad",
+            "C": "M. Chinnaswamy Stadium, Bangalore",
+            "D": "Eden Gardens, Kolkata"
+        },
+        "correct_option": "B"
+    },
+    {
+        "id": 5,
+        "question": "Which team won their maiden IPL title in 2025?",
+        "options": {
+            "A": "Punjab Kings",
+            "B": "Delhi Capitals",
+            "C": "Lucknow Super Giants",
+            "D": "Gujarat Titans"
+        },
+        "correct_option": "A"
+    }
+]
